@@ -24,20 +24,20 @@ const Header = () => {
             alignItems="center"
             listStyleType="none"
           >
-            <ListItem mr="2rem">Home</ListItem>
-            <ListItem mr="2rem">Features</ListItem>
-            <ListItem mr="2rem">Community</ListItem>
-            <ListItem mr="2rem">Blog</ListItem>
-            <ListItem mr="2rem">Pricing</ListItem>
+            <ListItem mr="3rem">Home</ListItem>
+            <ListItem mr="3rem">Features</ListItem>
+            <ListItem mr="3rem">Community</ListItem>
+            <ListItem mr="3rem">Blog</ListItem>
+            <ListItem mr="3rem">Pricing</ListItem>
           </UnorderedList>
           <Button variant="noOutline" size="largePR">
             Register Now
             <Image
               src="../assets/arrow.png"
               alt=""
-              w="30px"
-              h="30px"
-              ml="1rem"
+              w="15px"
+              h="15px"
+              ml="0.5rem"
             />
           </Button>
         </Flex>

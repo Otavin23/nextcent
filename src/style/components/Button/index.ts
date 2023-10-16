@@ -11,7 +11,13 @@ const Button = defineStyleConfig({
   sizes: {
     largePR: {
       px: "1.5rem",
-      py: "0.7rem",
+      py: "0.8rem",
+      h: "100%",
+    },
+
+    normal: {
+      px: "2rem",
+      py: "1rem",
       h: "100%",
     },
   },
