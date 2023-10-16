@@ -358,6 +358,30 @@ const App = () => {
           </Box>
         </Container>
       </Flex>
+      <Flex justify="center" py="2rem">
+        <Container variant="mainLine" display="Flex" alignItems="center">
+          <Image src="../assets/pana.svg" alt="" w="600px" h="600px" />
+          <Box>
+            <Heading fontWeight="600" maxW="600px" color="#4D4D4D">
+              How to design your site footer like we did{" "}
+            </Heading>
+            <Text color="#717171" my="1.5rem">
+              Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+              augue nec tincidunt molestie, massa nunc varius arcu, at
+              scelerisque elit erat a magna. Donec quis erat at libero ultrices
+              mollis. In hac habitasse platea dictumst. Vivamus vehicula leo
+              dui, at porta nisi facilisis finibus. In euismod augue vitae nisi
+              ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla
+              commodo faucibus efficitur quis massa. Praesent felis est, finibus
+              et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus
+              ipsum id gravida.
+            </Text>
+            <Button variant="noOutline" size="normal">
+              Learn More
+            </Button>
+          </Box>
+        </Container>
+      </Flex>
     </ChakraBaseProvider>
   );
 };
