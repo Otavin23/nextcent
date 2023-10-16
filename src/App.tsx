@@ -167,7 +167,7 @@ const App = () => {
                 color="#4D4D4D"
                 fontSize="30px"
               >
-                Membership Organisations
+                National Associations
               </Heading>
 
               <Text
@@ -207,8 +207,9 @@ const App = () => {
                 mt="1rem"
                 color="#4D4D4D"
                 fontSize="30px"
+                maxW="200px"
               >
-                Membership Organisations
+                Clubs And Groups
               </Heading>
 
               <Text
@@ -222,6 +223,28 @@ const App = () => {
               </Text>
             </Flex>
           </Flex>
+        </Container>
+      </Flex>
+
+      <Flex justify="center" py="5rem">
+        <Container variant="mainLine" display="Flex" alignItems="center">
+          <Image src="../assets/illustration2.svg" alt="" w="600px" h="600px" />
+          <Box>
+            <Heading fontWeight="600" maxW="600px" color="#4D4D4D">
+              The unseen of spending three years at Pixelgrade
+            </Heading>
+            <Text color="#717171" my="1.5rem">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+              amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+              Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+              tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+              Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+              elementum pulvinar odio.
+            </Text>
+            <Button variant="noOutline" size="normal">
+              Learn More
+            </Button>
+          </Box>
         </Container>
       </Flex>
     </ChakraBaseProvider>
