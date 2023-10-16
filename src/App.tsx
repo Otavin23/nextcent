@@ -1,4 +1,4 @@
-import { ChakraBaseProvider, UnorderedList } from "@chakra-ui/react";
+import { ChakraBaseProvider, ListItem, UnorderedList } from "@chakra-ui/react";
 import { themeChakra } from "./style/theme";
 import { Header } from "./Components/Header";
 import {
@@ -226,7 +226,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="5rem">
+      <Flex justify="center" py="2rem">
         <Container variant="mainLine" display="Flex" alignItems="center">
           <Image src="../assets/illustration2.svg" alt="" w="600px" h="600px" />
           <Box>
@@ -244,6 +244,117 @@ const App = () => {
             <Button variant="noOutline" size="normal">
               Learn More
             </Button>
+          </Box>
+        </Container>
+      </Flex>
+
+      <Flex justify="center" bg="#F5F7FA" py="5rem">
+        <Container
+          variant="mainLine"
+          display="Flex"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Box>
+            <Heading
+              fontSize="40px"
+              maxW="450px"
+              fontWeight="600"
+              color="#4D4D4D"
+            >
+              Helping a local{" "}
+              <Text as="span" color="#4CAF4F">
+                business reinvent itself
+              </Text>
+            </Heading>
+            <Text color="#18191F" fontSize="20px" mt="1rem">
+              We reached here with our hard work and dedication
+            </Text>
+          </Box>
+          <Box>
+            <UnorderedList m="0" display="flex" flexWrap="wrap">
+              <ListItem display="flex" alignItems="center" mr="7rem">
+                <Box>
+                  <Image
+                    src="../assets/company/icon.svg"
+                    alt=""
+                    w="55px"
+                    h="55px"
+                  />
+                </Box>
+
+                <Box ml="1rem">
+                  <Heading color="#4D4D4D" fontSize="30px">
+                    2,245,341
+                  </Heading>
+                  <Text as="span" color="#717171">
+                    Members
+                  </Text>
+                </Box>
+              </ListItem>
+
+              <ListItem display="flex" alignItems="center">
+                <Box>
+                  <Image
+                    src="../assets/company/icon2.svg"
+                    alt=""
+                    w="55px"
+                    h="55px"
+                  />
+                </Box>
+
+                <Box ml="1rem">
+                  <Heading color="#4D4D4D" fontSize="30px">
+                    46,328
+                  </Heading>
+                  <Text as="span" color="#717171">
+                    Clubs
+                  </Text>
+                </Box>
+              </ListItem>
+            </UnorderedList>
+
+            <UnorderedList m="0" display="flex" flexWrap="wrap" mt="5rem">
+              <ListItem display="flex" alignItems="center" mr="7rem">
+                <Box>
+                  <Image
+                    src="../assets/company/icon3.svg"
+                    alt=""
+                    w="55px"
+                    h="55px"
+                  />
+                </Box>
+
+                <Box ml="1rem">
+                  <Heading color="#4D4D4D" fontSize="30px">
+                    828,867
+                  </Heading>
+                  <Text as="span" color="#717171">
+                    Members
+                  </Text>
+                </Box>
+              </ListItem>
+
+              <ListItem display="flex" alignItems="center">
+                <Box>
+                  <Image
+                    src="../assets/company/icon4.svg"
+                    alt=""
+                    w="55px"
+                    h="55px"
+                  />
+                </Box>
+
+                <Box ml="1rem">
+                  <Heading color="#4D4D4D" fontSize="30px">
+                    1,926,436
+                  </Heading>
+                  <Text as="span" color="#717171">
+                    Payments
+                  </Text>
+                </Box>
+              </ListItem>
+            </UnorderedList>
           </Box>
         </Container>
       </Flex>
