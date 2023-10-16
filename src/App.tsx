@@ -62,7 +62,7 @@ const App = () => {
           <Text my="1rem" color="#717171">
             We have been working with some Fortune 500+ clients
           </Text>
-          <Flex justify="space-between" align="center" w="100%">
+          <Flex justify="space-between" align="center" w="100%" mt="1rem">
             <Image
               src="../assets/clients/Vector.svg"
               alt=""
@@ -75,6 +75,152 @@ const App = () => {
             <Image src="../assets/clients/Logo3.svg" alt="" w="65px" h="65px" />
             <Image src="../assets/clients/Logo4.svg" alt="" w="65px" h="65px" />
             <Image src="../assets/clients/Logo1.svg" alt="" w="65px" h="70px" />
+          </Flex>
+        </Container>
+      </Flex>
+
+      <Flex justify="center" py="3rem">
+        <Container
+          variant="mainLine"
+          display="Flex"
+          alignItems="center"
+          flexDirection="column"
+        >
+          <Heading
+            color="#4D4D4D"
+            fontWeight="600"
+            maxW="550px"
+            textAlign="center"
+          >
+            Manage your entire community in a single system
+          </Heading>
+          <Text my="1rem" color="#717171">
+            Who is Nextcent suitable for?
+          </Text>
+
+          <Flex justify="space-between" align="center" w="100%" mt="1rem">
+            <Flex
+              direction="column"
+              align="center"
+              justify="center"
+              w="350px"
+              h="350px"
+              p="1.5rem"
+              borderRadius="0.5rem"
+              boxShadow="1px 2px 30px #abbed130"
+              border="1px solid #abbed130"
+            >
+              <Box>
+                <Image
+                  src="../assets/community/Icon.svg"
+                  alt=""
+                  w="70px"
+                  h="70px"
+                />
+              </Box>
+
+              <Heading
+                as="h3"
+                textAlign="center"
+                mt="1rem"
+                color="#4D4D4D"
+                fontSize="30px"
+              >
+                Membership Organisations
+              </Heading>
+
+              <Text
+                textAlign="center"
+                color="#717171"
+                mt="1rem"
+                fontSize="17px"
+              >
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </Text>
+            </Flex>
+
+            <Flex
+              direction="column"
+              align="center"
+              justify="center"
+              w="350px"
+              h="350px"
+              p="1.5rem"
+              borderRadius="0.5rem"
+              boxShadow="1px 2px 30px #abbed130"
+              border="1px solid #abbed130"
+            >
+              <Box>
+                <Image
+                  src="../assets/community/icon1.svg"
+                  alt=""
+                  w="70px"
+                  h="70px"
+                />
+              </Box>
+
+              <Heading
+                as="h3"
+                textAlign="center"
+                mt="1rem"
+                color="#4D4D4D"
+                fontSize="30px"
+              >
+                Membership Organisations
+              </Heading>
+
+              <Text
+                textAlign="center"
+                color="#717171"
+                mt="1rem"
+                fontSize="17px"
+              >
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </Text>
+            </Flex>
+
+            <Flex
+              direction="column"
+              align="center"
+              justify="center"
+              w="350px"
+              h="350px"
+              p="1.5rem"
+              borderRadius="0.5rem"
+              boxShadow="1px 2px 30px #abbed130"
+              border="1px solid #abbed130"
+            >
+              <Box>
+                <Image
+                  src="../assets/community/icon2.svg"
+                  alt=""
+                  w="70px"
+                  h="70px"
+                />
+              </Box>
+
+              <Heading
+                as="h3"
+                textAlign="center"
+                mt="1rem"
+                color="#4D4D4D"
+                fontSize="30px"
+              >
+                Membership Organisations
+              </Heading>
+
+              <Text
+                textAlign="center"
+                color="#717171"
+                mt="1rem"
+                fontSize="17px"
+              >
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </Text>
+            </Flex>
           </Flex>
         </Container>
       </Flex>
