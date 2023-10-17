@@ -663,7 +663,33 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex></Flex>
+      <Flex justify="center" bg="#F5F7FA" py="2rem">
+        <Container
+          variant="mainLine"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+        >
+          <Heading
+            color="#263238"
+            fontSize="60px"
+            maxW="800px"
+            textAlign="center"
+          >
+            Pellentesque suscipit fringilla libero eu.
+          </Heading>
+          <Button variant="noOutline" size="normal" mt="3rem">
+            Get a Demo
+            <Image
+              src="../assets/arrow.png"
+              alt=""
+              w="20px"
+              h="20px"
+              ml="0.5rem"
+            />
+          </Button>
+        </Container>
+      </Flex>
     </ChakraBaseProvider>
   );
 };
