@@ -49,7 +49,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="3rem">
+      <Flex as="section" justify="center" py="3rem">
         <Container
           variant="mainLine"
           display="Flex"
@@ -79,7 +79,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="3rem">
+      <Flex as="section" justify="center" py="3rem">
         <Container
           variant="mainLine"
           display="Flex"
@@ -226,7 +226,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="2rem">
+      <Flex as="section" justify="center" py="2rem">
         <Container variant="mainLine" display="Flex" alignItems="center">
           <Image src="../assets/illustration2.svg" alt="" w="600px" h="600px" />
           <Box>
@@ -248,7 +248,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" bg="#F5F7FA" py="5rem">
+      <Flex as="section" justify="center" bg="#F5F7FA" py="5rem">
         <Container
           variant="mainLine"
           display="Flex"
@@ -359,7 +359,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="2rem">
+      <Flex as="section" justify="center" py="2rem">
         <Container variant="mainLine" display="Flex" alignItems="center">
           <Image src="../assets/pana.svg" alt="" w="600px" h="600px" />
           <Box>
@@ -384,7 +384,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" bg="#F5F7FA" py="2rem">
+      <Flex as="section" justify="center" bg="#F5F7FA" py="2rem">
         <Container
           variant="mainLine"
           display="flex"
@@ -491,7 +491,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" py="3.5rem" pb="8rem">
+      <Flex as="section" justify="center" py="3.5rem" pb="8rem">
         <Container
           variant="mainLine"
           display="flex"
@@ -508,7 +508,7 @@ const App = () => {
             community, read about how our community are increasing their
             membership income and lot's more.
           </Text>
-          <Flex w="100%" justify="space-between" mt="1rem">
+          <Flex as="article" w="100%" justify="space-between" mt="1rem">
             <Flex
               justify="center"
               w="450px"
@@ -662,6 +662,8 @@ const App = () => {
           </Flex>
         </Container>
       </Flex>
+
+      <Flex></Flex>
     </ChakraBaseProvider>
   );
 };
