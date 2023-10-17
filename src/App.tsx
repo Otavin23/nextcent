@@ -358,6 +358,7 @@ const App = () => {
           </Box>
         </Container>
       </Flex>
+
       <Flex justify="center" py="2rem">
         <Container variant="mainLine" display="Flex" alignItems="center">
           <Image src="../assets/pana.svg" alt="" w="600px" h="600px" />
@@ -379,6 +380,113 @@ const App = () => {
             <Button variant="noOutline" size="normal">
               Learn More
             </Button>
+          </Box>
+        </Container>
+      </Flex>
+
+      <Flex justify="center" bg="#F5F7FA" py="2rem">
+        <Container
+          variant="mainLine"
+          display="flex"
+          justifyContent="space-between"
+        >
+          <Image src="../assets/image9.svg" alt="" w="400px" h="400px" />
+          <Box ml="3rem">
+            <Text fontSize="17px" color="#717171" mb="1rem">
+              Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
+              lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
+              enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+              enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet
+              elit at ligula molestie, nec molestie mi blandit. Suspendisse
+              cursus tellus sed augue ultrices, quis tristique nulla sodales.
+              Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse
+              potenti. Quisque malesuada enim sapien, vitae placerat ante
+              feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+              condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
+              amet magna.
+            </Text>
+
+            <Text as="span" color="#4CAF4F" fontWeight="600" fontSize="23px">
+              Tim Smith
+            </Text>
+
+            <Text color="#89939E" mt="0.3rem">
+              British Dragon Boat Racing Association
+            </Text>
+
+            <UnorderedList
+              display="flex"
+              alignItems="center"
+              justifyContent="space-between"
+              listStyleType="none"
+              m="2rem 0 0 0"
+            >
+              <ListItem>
+                <Image
+                  src="../assets/clients/logo1Blue.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem>
+                <Image
+                  src="../assets/clients/Logo.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem>
+                <Image
+                  src="../assets/clients/Logo1.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem>
+                <Image
+                  src="../assets/clients/Logo2.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem>
+                <Image
+                  src="../assets/clients/Logo3.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem>
+                <Image
+                  src="../assets/clients/Logo4.svg"
+                  alt=""
+                  w="45px"
+                  h="45px"
+                />
+              </ListItem>
+              <ListItem
+                display="flex"
+                alignItems="center"
+                color="#4CAF4F"
+                fontWeight="600"
+                fontSize="20px"
+                cursor="pointer"
+              >
+                Meet all customers
+                <Image
+                  src="../assets/arrowGreen.png"
+                  alt=""
+                  w="20px"
+                  h="20px"
+                  ml="1.5rem"
+                />
+              </ListItem>
+            </UnorderedList>
           </Box>
         </Container>
       </Flex>
