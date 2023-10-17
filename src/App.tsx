@@ -490,6 +490,178 @@ const App = () => {
           </Box>
         </Container>
       </Flex>
+
+      <Flex justify="center" py="3.5rem" pb="8rem">
+        <Container
+          variant="mainLine"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          h="100%"
+        >
+          <Heading color="#4D4D4D" fontWeight="600">
+            Caring is the new marketing
+          </Heading>
+          <Text textAlign="center" color="#717171" maxW="650px" my="0.5rem">
+            The Nextcent blog is the best place to read about the latest
+            membership insights, trends and more. See who's joining the
+            community, read about how our community are increasing their
+            membership income and lot's more.
+          </Text>
+          <Flex w="100%" justify="space-between" mt="1rem">
+            <Flex
+              justify="center"
+              w="450px"
+              maxH="300px"
+              h="100%"
+              mr="2rem"
+              pos="relative"
+            >
+              <Image src="../assets/marketing/image1.svg" alt="" w="100%" />
+
+              <Box
+                bg="#F5F7FA"
+                boxShadow="0px 4px 14px #00000045"
+                borderRadius="0.5rem"
+                p="1.5rem"
+                pos="absolute"
+                bottom="-50px"
+                w="70%"
+              >
+                <Heading
+                  as="h4"
+                  fontSize="18px"
+                  textAlign="center"
+                  color="#717171"
+                  fontWeight="600"
+                >
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </Heading>
+                <Text
+                  as="span"
+                  display="Flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  mt="1.5rem"
+                  color="#4CAF4F"
+                  fontWeight="600"
+                  fontSize="20px"
+                >
+                  Readmore
+                  <Image
+                    src="../assets/arrowGreen.png"
+                    alt=""
+                    w="25px"
+                    h="25px"
+                    ml="1rem"
+                  />
+                </Text>
+              </Box>
+            </Flex>
+
+            <Flex
+              justify="center"
+              w="450px"
+              maxH="300px"
+              h="100%"
+              mr="2rem"
+              pos="relative"
+            >
+              <Image src="../assets/marketing/image2.svg" alt="" w="100%" />
+
+              <Box
+                bg="#F5F7FA"
+                boxShadow="0px 4px 14px #00000045"
+                borderRadius="0.5rem"
+                p="1.5rem"
+                pos="absolute"
+                bottom="-50px"
+                w="70%"
+              >
+                <Heading
+                  as="h4"
+                  fontSize="18px"
+                  textAlign="center"
+                  color="#717171"
+                  fontWeight="600"
+                >
+                  What are your safeguarding responsibilities and how can you
+                  manage them?
+                </Heading>
+                <Text
+                  as="span"
+                  display="Flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  mt="1.5rem"
+                  color="#4CAF4F"
+                  fontWeight="600"
+                  fontSize="20px"
+                >
+                  Readmore
+                  <Image
+                    src="../assets/arrowGreen.png"
+                    alt=""
+                    w="25px"
+                    h="25px"
+                    ml="1rem"
+                  />
+                </Text>
+              </Box>
+            </Flex>
+
+            <Flex
+              justify="center"
+              w="450px"
+              maxH="300px"
+              h="100%"
+              mr="2rem"
+              pos="relative"
+            >
+              <Image src="../assets/marketing/image3.svg" alt="" w="100%" />
+
+              <Box
+                bg="#F5F7FA"
+                boxShadow="0px 4px 14px #00000045"
+                borderRadius="0.5rem"
+                p="1.5rem"
+                pos="absolute"
+                bottom="-50px"
+                w="70%"
+              >
+                <Heading
+                  as="h4"
+                  fontSize="18px"
+                  textAlign="center"
+                  color="#717171"
+                  fontWeight="600"
+                >
+                  Revamping the Membership Model with Triathlon Australia
+                </Heading>
+                <Text
+                  as="span"
+                  display="Flex"
+                  justifyContent="center"
+                  alignItems="center"
+                  mt="1.5rem"
+                  color="#4CAF4F"
+                  fontWeight="600"
+                  fontSize="20px"
+                >
+                  Readmore
+                  <Image
+                    src="../assets/arrowGreen.png"
+                    alt=""
+                    w="25px"
+                    h="25px"
+                    ml="1rem"
+                  />
+                </Text>
+              </Box>
+            </Flex>
+          </Flex>
+        </Container>
+      </Flex>
     </ChakraBaseProvider>
   );
 };
