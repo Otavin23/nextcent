@@ -1,6 +1,7 @@
 import { ChakraBaseProvider, ListItem, UnorderedList } from "@chakra-ui/react";
 import { themeChakra } from "./style/theme";
 import { Header } from "./Components/Header";
+import { Footer } from "./Components/footer";
 import {
   Flex,
   Container,
@@ -663,7 +664,7 @@ const App = () => {
         </Container>
       </Flex>
 
-      <Flex justify="center" bg="#F5F7FA" py="2rem">
+      <Flex justify="center" bg="#F5F7FA" py="3rem">
         <Container
           variant="mainLine"
           display="flex"
@@ -690,6 +691,8 @@ const App = () => {
           </Button>
         </Container>
       </Flex>
+
+      <Footer />
     </ChakraBaseProvider>
   );
 };
