@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+# nextcent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo 💻 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src=".github/nextcent.gif" alt="" />
+<hr>
+ 
+## hosted website 
 
-## Expanding the ESLint configuration
+website: https://nextcent-nine.vercel.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📔 About the Project
 
-- Configure the top-level `parserOptions` property like this:
+Build a robust and engaging community with our community management service. Our dedicated team uses innovative strategies to cultivate authentic connections and promote active participation.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### 🛠 Technologies
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<ul>
+   <li>
+      <a href="https://react.dev/" target="blank">React.js</a>
+   </li>
+    <li>
+      <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a>
+   </li> 
+   <li>
+      <a href="https://chakra-ui.com/getting-started" target="_blank">Chakra UI</a>
+   </li>    
+</ul>
+
+<hr>
+
+## 💻 How to run the application
+
+You must have the tools installed: <a href="https://git-scm.com/" target="_blank">Git</a>, <a href="https://nodejs.org/en" target="_blank">Node.js.</a>
+
+<pre>
+   # In the terminal, clone the project:
+   $ git clone https://github.com/Otavin23/nextcent
+   
+   # Enter in folder
+   $ cd nextcent
+   
+   # Install dependecias
+   $ npm install
+
+   # Starting Project 
+   $ npm run dev   
+
+</pre>
+
+Projeto iniciando em <a href="">localhost:5173</a>
