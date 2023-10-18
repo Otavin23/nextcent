@@ -3,7 +3,8 @@
 ## Demo 💻 
 
 
-<img src=".github/nextcent.gif" alt="" />
+<img src="./github/nextcent.gif" alt="" />
+
 <hr>
  
 ## hosted website 
