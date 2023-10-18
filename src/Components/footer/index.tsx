@@ -17,10 +17,15 @@ const Footer = () => {
         variant="mainLine"
         display="flex"
         justifyContent="space-between"
+        flexDirection={{ base: "column", lg: "row" }}
       >
-        <Box>
+        <Flex direction="column" align={{ base: "center", lg: "start" }}>
           <Image src="../assets/footer/Nexcent.svg" alt="" w="200px" />
-          <Text color="#F5F7FA" my="3rem" maxW="250px">
+          <Text
+            color="#F5F7FA"
+            my={{ base: "1.5rem", lg: "3rem" }}
+            maxW="250px"
+          >
             Copyright © 2020 Landify UI Kit. All rights reserved
           </Text>
 
@@ -71,10 +76,17 @@ const Footer = () => {
               </ListItem>
             </UnorderedList>
           </Flex>
-        </Box>
+        </Flex>
 
-        <Flex as="nav">
-          <UnorderedList m="0" listStyleType="none" mr="8rem">
+        <Flex as="nav" justify={{ base: "center", lg: "start" }} wrap="wrap">
+          <UnorderedList
+            m="0"
+            listStyleType="none"
+            mr={{ base: "0", lg: "8rem" }}
+            my="3rem"
+            w={{ base: "80%", lg: "auto" }}
+            textAlign={{ base: "center", lg: "start" }}
+          >
             <ListItem color="#fff" fontWeight="600" fontSize="23px">
               Company
             </ListItem>
@@ -95,7 +107,14 @@ const Footer = () => {
             </ListItem>
           </UnorderedList>
 
-          <UnorderedList m="0" listStyleType="none" mr="5rem">
+          <UnorderedList
+            m="0"
+            listStyleType="none"
+            mr={{ base: "0", lg: "8rem" }}
+            my="3rem"
+            w={{ base: "80%", lg: "auto" }}
+            textAlign={{ base: "center", lg: "start" }}
+          >
             <ListItem color="#fff" fontWeight="600" fontSize="23px">
               Support
             </ListItem>
@@ -116,7 +135,10 @@ const Footer = () => {
             </ListItem>
           </UnorderedList>
 
-          <Box>
+          <Box
+            w={{ base: "100%", lg: "auto" }}
+            textAlign={{ base: "center", lg: "start" }}
+          >
             <Heading as="h4" color="#fff" fontWeight="600" fontSize="23px">
               Stay up to date
             </Heading>
@@ -124,7 +146,7 @@ const Footer = () => {
               alignItems="center"
               mt="1.5rem"
               bg="#515B60"
-              w="300px"
+              w={{ base: "100%", lg: "300px" }}
               h="50px"
               borderRadius="0.7rem"
             >

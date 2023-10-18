@@ -5,6 +5,7 @@ const Button = defineStyleConfig({
     noOutline: {
       border: "none",
       fontSize: "16px",
+      h: "auto",
     },
   },
 
